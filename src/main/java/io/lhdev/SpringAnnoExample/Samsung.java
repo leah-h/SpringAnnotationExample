@@ -2,7 +2,9 @@ package io.lhdev.SpringAnnoExample;
 
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
 
+@Component // non-qualified and de-capitalized
 public class Samsung {
 
     @Autowired

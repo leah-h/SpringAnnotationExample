@@ -4,11 +4,10 @@ import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component
-@Primary
-public class Snapdragon implements MobileProcessor{
 
-    public void process(){
+public class MediaTek implements MobileProcessor {
 
-        System.out.println("World's best cpu");
+    public void process() {
+        System.out.println("2nd Best CPU");
     }
 }
